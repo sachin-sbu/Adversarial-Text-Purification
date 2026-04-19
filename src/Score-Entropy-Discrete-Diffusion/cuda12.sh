@@ -1,0 +1,1 @@
+export PATH="/usr/local/cuda-12.1/bin:$PATH"
