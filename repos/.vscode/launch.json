@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        // {
+        //     "name": "Python Debugger: Current File",
+        //     "type": "debugpy",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "console": "integratedTerminal"
+        // },
+        {
+            "name": "Python Debugger: run_sample_cond.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/oxen/Score-Entropy-Discrete-Diffusion/scripts/run_sample_cond.py",
+            "args": ["--steps", "100", "--model", "/home/sdanisetty/projects/advpur/models/oxen-sedd-l"],
+            "pythonPath": "/home/sdanisetty/miniconda3/envs/sedd/bin/python",
+            "console": "integratedTerminal"
+        }
+    ]
+}
